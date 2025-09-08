@@ -1,0 +1,81 @@
+/* รีเซ็ตค่าเริ่มต้น */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ตั้งค่าพื้นฐานของ body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* เมนูนำทาง */
+.nav-menu {
+  background-color: #3366cc;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 0 5px;
+  background-color: #264d99;
+  border-radius: 4px;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.nav-menu a:hover {
+  background-color: #1a3570;
+}
+
+/* เนื้อหาหลัก */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+main h1 {
+  margin-bottom: 15px;
+  color: #3366cc;
+}
+
+main p {
+  margin-bottom: 15px;
+}
+
+/* รูปภาพ */
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+/* iframe แผนที่ ให้เลื่อนอัตโนมัติและมีขนาดเต็ม */
+iframe {
+  max-width: 100%;
+  border: 0;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+/* ส่วนท้ายเว็บไซต์ */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
